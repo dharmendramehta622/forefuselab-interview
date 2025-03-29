@@ -1,0 +1,16 @@
+fastapi
+fastapi[standard]
+uvicorn
+sqlmodel
+typer
+dynaconf
+jinja2
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+psycopg2-binary
+openai
+SpeechRecognition
+pyaudio  # Optional, for real-time speech recognition
+whisper  # Optional, if using Whisper for transcription
+torch  # Required for Whisper

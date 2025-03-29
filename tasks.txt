@@ -1,0 +1,38 @@
+It was a pleasure speaking with you, and I am excited to move the process forward.
+
+Here are a couple of tasks for evaluation: 
+
+Do comment heavily, showing your thought process and choices.
+And let me know if you have any other questions.
+
+Smart journalling: 
+This is AI-powered, thoughtfully designed and personalized journaling experience. 
+The key features: AI that asks you personalized prompt questions, proactively. AI that makes comments or
+metanotes on your journaling. See a list of favourite prompts and themes for the AI to ask the user.Get voice notes 
+transcribed through a speech-to-text model. See key insights and takeaways from today’s journal once the process has
+been completed for the day. 
+
+The AI that can read the journal, and prompt the user, ask pertinent questions, make the journaling exercise as 
+useful, as insight-inducing, as possible.
+
+The system prompts the user with some questions to start them off, either generic but preferred questions and sets
+of themes, or based on some information the model may have regarding today - say if you are working on an acutely 
+stressful project that is upcoming, the AI, knowing that through other interactions, could start off the journaling 
+canvas by asking the user about how they are preparing, for it, etc 
+The journaling exercise can thus continue as the AI proactively and thoughtfully asks follow on questions, until 
+the user is done for the day.
+The user can also take voice notes, or have their voice transcribed by a model like Whisper 
+
+
+Second task
+
+Marketplace functionality: 
+Allow the users to 
+1. Post item to sell - an image, with reference data - title, author, description, price, sole-buyer or multiple buyer, 
+labels, and metadata like “likes” and star ratings.
+2. Display images on a marketplace feed - based on 1 likes received, 2 or pricing or creator history.
+3. Marketplace search engine - using labels and tags, or creators.
+4. Users can “like” images, which are added to images liked section in the “user home”, and they can rate images from
+   1 to 5 stars. Filter by pricing, rating, one time buy.
+
+All the best.
