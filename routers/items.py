@@ -1,6 +1,7 @@
 from typing import Optional,List
 from models.items import Item,RatingRequest,LikeRequest
 from fastapi import Query,APIRouter
+from fastapi import HTTPException
 
 router = APIRouter()
 
@@ -30,6 +31,7 @@ def search_items(
     filtered_items = db_items
 
     # Filter by query (title or labels)
+    print(query)
     if query:
         filtered_items = [
             item for item in filtered_items
@@ -53,7 +55,13 @@ def search_items(
 
     return filtered_items
 
-
+@router.get("/items/{item_id}",response_model=Item)
+def get_item_by_id(item_id:str):
+    for item in db_items:
+        if item.id == item_id:
+            return item 
+    raise HTTPException(status_code=404,detail=f"Item with id {item_id} not found." )
+        
 @router.post("/items/like/")
 def like_item(like: LikeRequest):
     if like.item_id not in db_likes:
